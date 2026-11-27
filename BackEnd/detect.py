@@ -12,7 +12,7 @@ from ultralytics import YOLO
 
 # ── 1. PATHS ──────────────────────────────────────────────────────────────────
 BACKEND_DIR = os.path.dirname(os.path.abspath(__file__))
-BEST_MODEL  = os.path.join(BACKEND_DIR, "runs", "jasmine_v1", "weights", "best.pt")
+BEST_MODEL  = os.path.join(BACKEND_DIR, "runs", "jasmine_v2", "weights", "best.pt")
 
 # ── 2. LOAD MODEL ─────────────────────────────────────────────────────────────
 # Model is loaded once here at module level.

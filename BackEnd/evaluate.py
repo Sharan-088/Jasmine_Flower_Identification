@@ -9,7 +9,7 @@ from ultralytics import YOLO
 # ── 1. PATHS ─────────────────────────────────────────────────────────────────
 BACKEND_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_YAML   = os.path.join(BACKEND_DIR, "data.yaml")
-BEST_MODEL  = os.path.join(BACKEND_DIR, "runs", "jasmine_v1", "weights", "best.pt")
+BEST_MODEL  = os.path.join(BACKEND_DIR, "runs", "jasmine_v2", "weights", "best.pt")
 
 # ── 2. CHECKS ─────────────────────────────────────────────────────────────────
 print("=" * 50)
@@ -81,6 +81,6 @@ METRIC EXPLANATIONS:
 """)
 
 # Save results path
-results_dir = os.path.join(BACKEND_DIR, "runs", "jasmine_v1")
+results_dir = os.path.join(BACKEND_DIR, "runs", "jasmine_v2")
 print(f"Full results saved to: {results_dir}")
 print("Check results.png and confusion_matrix.png inside that folder.")
