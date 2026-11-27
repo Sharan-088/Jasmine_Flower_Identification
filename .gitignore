@@ -1,0 +1,85 @@
+# ==========================================
+# Python & Virtual Environments
+# ==========================================
+venv/
+.venv/
+env/
+ENV/
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+.Python
+
+# ==========================================
+# Datasets (Prevent pushing thousands of images)
+# ==========================================
+dataset/
+*.zip
+*.tar.gz
+
+# ==========================================
+# Training Outputs & YOLO Runs
+# ==========================================
+BackEnd/runs/
+runs/
+# If you want to track only your best trained weights in Git LFS, uncomment:
+!BackEnd/runs/jasmine_v1/weights/best.pt
+# *.pt
+*.onnx
+*.engine
+
+# ==========================================
+# Frontend & Node.js
+# ==========================================
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+node_modules/
+dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ==========================================
+# Flask Temporary / Upload Folders
+# ==========================================
+BackEnd/static/uploads/
+static/uploads/
+uploads/
+
+# ==========================================
+# IDEs & OS Specific Files
+# ==========================================
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# ==========================================
+# Environment Variables & Secrets
+# ==========================================
+.env
+.env.local
+.env.*.local
+
+# ==========================================
+# Detection output images
+# ==========================================
+BackEnd/static/results/
+BackEnd/static/uploads/
+detection_output.jpg
+
+# ==========================================
+# Vite default assets
+# ==========================================
+frontend/src/assets/react.svg
+frontend/src/assets/vite.svg
+frontend/src/assets/hero.png
